@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@media only screen and (min-width: 320px) {
+    body {
+        background: url(./img/TankerNejla_we7djr.jpg);
+        background-size: cover;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 1vw;
+        color: aliceblue;
+    }
+
+    #header {
+        background-color: rgba(0, 0, 0, 0.353);
+        backdrop-filter: blur(3px);
+        width: 50vw;
+        margin: 0 auto;
+        padding: 0.5vw;
+        box-shadow: 0px 8px 20px rgb(0, 0, 0);
+        border-radius: 15px;
+        text-align: center;
+
+    }
+
+    #header h2 {
+        text-align: center;
+        margin: 1vw;
+        color: snow;
+    }
+
+    #frmThongTinCaNhan table {
+        width: 40vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .hoTen {
+        width: 100%;
+        padding: 0.5vw;
+        border: 0;
+        border-radius: 5px;
+    }
+
+    .hoTen,
+    .tell,
+    .cmnd,
+    .email,
+    .diaChi,
+    .sinh::placeholder {
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.653);
+    }
+
+    .tell {
+        width: 100%;
+        padding: 0.5vw;
+        border: 0;
+        border-radius: 5px;
+    }
+
+    .cmnd {
+        width: 100%;
+        padding: 0.5vw;
+        border: 0;
+        border-radius: 5px;
+    }
+
+    .email {
+        width: 100%;
+        padding: 0.5vw;
+        border: 0;
+        border-radius: 5px;
+    }
+
+    .diaChi {
+        width: 100%;
+        padding: 0.5vw;
+        border: 0;
+        border-radius: 5px;
+    }
+
+    .sinh {
+        margin: 0 1vw;
+        width: 8vw;
+        padding: 0.5vw;
+        border: 0;
+        border-radius: 5px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.653);
+    }
+
+    .cmnd,
+    .diaChi,
+    .email,
+    .hoTen,
+    .tell,
+    .sinh {
+        background-color: rgba(251, 251, 251, 0.612);
+        color: rgba(0, 0, 0, 0.653);
+        margin-bottom: 0.3vh;
+    }
+
+    input::placeholder {
+        color: rgba(0, 0, 0, 0.653);
+    }
+
+    textarea::placeholder {
+        color: rgba(0, 0, 0, 0.653);
+    }
+
+    .frmDangKy table {
+        margin: 0 auto;
+        width: 20vw;
+    }
+
+    .tenDangNhap,
+    .password,
+    .nhapLaiMatKhau {
+        width: 100%;
+        padding: 0.5vw;
+        border: 0;
+        border-radius: 5px;
+        background-color: rgba(251, 251, 251, 0.612);
+        margin-bottom: 0.2vh;
+    }
+
+    .tenDangNhap,
+    .password,
+    .nhapLaiMatKhau::placeholder {
+        font-weight: bold;
+    }
+
+    .button {
+        margin: 1vw;
+        width: 8vw;
+        border: 0;
+        font-weight: bold;
+        border-radius: 3px;
+        padding: 0.3vw 0;
+    }
+
+    .button:hover {
+        background-color: black;
+        color: snow;
+    }
+
+    #hienThongTin {
+        background-color: rgba(0, 0, 0, 0.353);
+        backdrop-filter: blur(3px);
+        width: 50vw;
+        margin: 0 auto;
+        box-shadow: 0px 8px 20px rgb(0, 0, 0);
+        border-radius: 15px;
+        margin-top: 1vw;
+    }
+
+    #hienThongTin p {
+        color: white;
+        margin: 0.5vw 0;
+        font-size: large;
+        padding-left: 1vw;
+        font-weight: lighter;
+    }
+
+    #hienThongTin p:last-child {
+        padding-bottom: 1vw;
+    }
+
+    #hienThongTin h1 {
+        margin-bottom: 2vw;
+        padding: 1vw;
+    }
+
+    #hienThongTin span {
+        color: red;
+        font-weight: 1;
+    }
+}
